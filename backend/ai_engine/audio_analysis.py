@@ -1,6 +1,6 @@
 import librosa
 import numpy as np
-from ai_engine.utils.audio_extractor import extract_audio
+from backend.ai_engine.utils.audio_extractor import extract_audio
 def analyze_audio(video_path):
 
     try:

@@ -1,7 +1,7 @@
 from ai_engine.evaluator import evaluate_video
 from ai_engine.scoring import clean_numpy
 
-from backend.database import (
+from database import (
     videos_collection,
     evaluations_collection,
     users_collection,
@@ -9,8 +9,8 @@ from backend.database import (
     db
 )
 
-from backend.auth.security import create_access_token
-from backend.auth.password import hash_password, verify_password
+from auth.security import create_access_token
+from auth.password import hash_password, verify_password
 
 from fastapi import APIRouter, UploadFile, File, Body, BackgroundTasks
 import uuid

@@ -8,3 +8,4 @@ ffmpeg-python
 python-multipart
 bcrypt
 PyJWT
+mediapipe
