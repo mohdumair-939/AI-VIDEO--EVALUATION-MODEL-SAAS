@@ -8,4 +8,4 @@ ffmpeg-python
 python-multipart
 bcrypt
 PyJWT
-mediapipe
+mediapipe==0.10.11
