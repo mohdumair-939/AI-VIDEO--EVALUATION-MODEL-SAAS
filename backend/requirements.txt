@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+pymongo
+python-dotenv
+numpy
+opencv-python
+ffmpeg-python
+python-multipart
+bcrypt
+PyJWT
