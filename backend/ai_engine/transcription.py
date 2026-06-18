@@ -1,5 +1,5 @@
 import whisper
-from backend.ai_engine.utils.audio_extractor import extract_audio
+from ai_engine.utils.audio_extractor import extract_audio
 
 model = None
 

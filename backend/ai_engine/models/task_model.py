@@ -1,3 +1,3 @@
-from backend.database import db
+from database import db
 
 tasks_collection = db["tasks"]

@@ -1,5 +1,5 @@
 from fastapi import Header, HTTPException
-from backend.auth.security import verify_token
+from auth.security import verify_token
 
 
 def get_current_user(authorization: str = Header(None)):
