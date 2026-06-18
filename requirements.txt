@@ -2,8 +2,8 @@ fastapi
 uvicorn
 pymongo
 python-dotenv
-numpy
-mediapipe
+numpy==1.26.4
+mediapipe==0.10.35
 opencv-python
 ffmpeg-python
 python-multipart

@@ -2,10 +2,10 @@ fastapi
 uvicorn
 pymongo
 python-dotenv
-numpy
+numpy==1.26.4
 opencv-python
 ffmpeg-python
 python-multipart
 bcrypt
 PyJWT
-mediapipe==0.10.11
+mediapipe==0.10.35
